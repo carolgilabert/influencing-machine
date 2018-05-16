@@ -3,8 +3,8 @@ title:              Influencing Machine
 bio:                'INFLUENCING MACHINE is a Nottingham-based collective and production company, specialising in new writing.'
 description:        "INFLUENCING MACHINE is a Nottingham-based collective and production company, specialising in new writing."
 locale:             en_UK
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/influencing-machine" # the subpath of your site, e.g. /blog
+url: "https://carolgilabert.gitlab.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -45,7 +45,6 @@ email:              info@default.com
 
 # Gems
 gems:
-  - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
@@ -53,9 +52,6 @@ gems:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
