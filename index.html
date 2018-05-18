@@ -39,7 +39,7 @@ sitemap:
 
 				<!-- Header -->
 					<header id="header">
-						<a href="{{ "/" | relative_url }}" class="logo">{{site.title}}</a>
+						<a href="{{ "/" | prepend: site.baseurl }}" class="logo">{{site.title}}</a>
 					</header>
 
 				<!-- Nav -->
@@ -57,14 +57,14 @@ sitemap:
 					<div id="main">
                         <!-- Main Image -->
                         <section class="special">
-                            <img src="{{ "/images/twot-poster-web_orig.jpg" | relative_url }}" alt="The War on Terry" />
+                            <img src="{{ "/images/twot-poster-web_orig.jpg" | prepend: site.baseurl }}" alt="The War on Terry" />
                         </section>
 
 						<!-- Footer -->
                         <footer>
                             <ul class="actions">
                                 <li>
-                                    <a href="{{ "/blog/" | relative_url }}" class="button">Our Blog</a>
+                                    <a href="{{ "/blog/" | prepend: site.baseurl }}" class="button">Our Blog</a>
                                 </li>
                             </ul>
                         </footer>

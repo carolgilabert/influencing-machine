@@ -1,17 +1,17 @@
 <ul class="links">
     <li class="{% if page.url == "/" %} active {% endif %}">
-        <a href="{{ "/" | relative_url }}">Home</a>
+        <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
     </li>
     <li class="{% if page.url contains '/productions/' %} active {% endif %}">
-        <a href="{{ '/productions/' | relative_url }}">Productions</a>
+        <a href="{{ '/productions/' | prepend: site.baseurl }}">Productions</a>
     </li>
     <li class="{% if page.url contains '/contact/' %} active {% endif %}">
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a>
     </li>
     <li class="{% if page.url contains '/blog/' %} active {% endif %}">
-        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/blog/' | prepend: site.baseurl }}">Blog</a>
     </li>
     <li class="{% if page.url contains '/elements/' %} active {% endif %}">
-        <a href="{{ '/elements/' | relative_url }}">Elements Reference</a>
+        <a href="{{ '/elements/' | prepend: site.baseurl }}">Elements Reference</a>
     </li>
 </ul>
