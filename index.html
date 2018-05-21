@@ -64,21 +64,7 @@ sitemap:
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
-                        <!-- Main Image -->
-                        <section class="special">
-                            <img src="{{ "/images/twot-poster-web_orig.jpg" | prepend: site.baseurl }}" alt="The War on Terry" />
-                        </section>
-
-						<!-- Footer -->
-                        <footer>
-                            <ul class="actions">
-                                <li>
-                                    <a href="{{ "/blog/" | prepend: site.baseurl }}" class="button">Our Blog</a>
-                                </li>
-                            </ul>
-                        </footer>
-					</div>
+				{% include home-content.html %}
 
 				<!-- Footer -->
                 {% include foot.html %}
