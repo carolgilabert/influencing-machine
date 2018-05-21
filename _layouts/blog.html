@@ -37,10 +37,10 @@
 
           <article class="post featured">
             <header class="major">
-              <h2><a href="#">Importance of Blogs</a></h2>
-              <p>Blogs are really pretty awesome things. For one, they are a means to continually provide fresh,
-                dynamic content to your users. Also, they help your site get indexed and build authority as they are essential for SEO!
-							</p>
+              <h2><a href="#">Project Blog</a></h2>
+              <p>
+                  Occasional posts from the minds and then fingers of INFLUENCING MACHINE and collaborators
+              </p>
             </header>
           </article>
 					<!-- Post -->
@@ -52,7 +52,9 @@
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 								</header>
-								<a href="{{ post.url | prepend: site.baseurl }}" class="image fit"><img src="{{ post.image | prepend: site.baseurl }}" alt="" /></a>
+                                <a href="{{ post.url | prepend: site.baseurl }}" class="image fit">
+                                    <img src="{{ post.image | prepend: site.baseurl }}" alt="" />
+                                </a>
 								<p>{{ post.excerpt }}</p>
 								<ul class="actions">
 									<li><a href="{{ post.url | prepend: site.baseurl }}" class="button">Full Story</a></li>

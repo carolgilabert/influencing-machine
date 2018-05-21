@@ -27,11 +27,11 @@ kramdown:
   enable_coderay:   false
 mathjax:            true
 sass:
-  sass_dir:         _sass
+  sass_dir:         /assets/sass
   style:            compressed
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   influencing-machine
 
 # Social
 analytics-id:       "default"
@@ -39,9 +39,9 @@ twitter:            "I_M_prod"
 facebook:           "influencing.machine"
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Nottingham, UK
+phone:              +44 7795203082
+email:              hugh@hugh-dichmont.com
 
 # Gems
 gems:

@@ -3,7 +3,7 @@ layout: post
 title:  "Learning to write (again) by Hugh Dichmont"
 date:   2017-07-15
 excerpt: "I often start a project with a title. Parameters are always good when writing, especially a mission. The title of our forthcoming show, The War On Terry, is obviously a joke."
-image: "/images/pic02.jpg"
+image: "/images/blog-thumbnails/entry-1.jpg"
 ---
 I often start a project with a title. Parameters are always good when writing, especially a mission. The title of our forthcoming show, The War On Terry, is obviously a joke. I had the title for a good long while before I knew what the story could be. I knew the protagonist would be called Terry, and he would be down on his luck. First I thought it could be a fairly straightforward story about a loner, albeit with an unseen detail: that humans haven’t escaped the food chain; the banality of the morning commute enhanced by the threat of being eaten by a pack of cougars. (The “war” being the banality of Terry’s life- the food chain just acting as an absurd counterpoint to his patheticness)
  
@@ -35,7 +35,7 @@ My first drafts, like that of my scars approach, were over-packed with stuff. Th
  
 God bless Steve Conlin. Steve is my Terry, the actor I wrote the play for. He would come around to my flat, and he would do the latest draft, script in hand. The first thing that process taught me was, one page of writing = 4 minutes of solo performance. My first draft was, at 41 pages, two hours too long. Oops. The great thing about knowing that was, I couldn’t keep most of the crap that I knew I should get rid of. Whole plotlines had to be wiped out.
 
-![Steve]({{ "/images/steve.jpeg" | prepend: site.baseurl }})
+![Steve]({{ "/images/blog-posts/steve.jpeg" | prepend: site.baseurl }})
 
 _Steve is an actual giant. He drinks water straight from teapots._
 
