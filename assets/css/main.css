@@ -3271,7 +3271,7 @@
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 100vh;
 			}
 
 				#intro h1 {
@@ -3319,7 +3319,7 @@
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 20rem;
+		height: 30rem;
 		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
@@ -3362,17 +3362,10 @@
 		}
 
 		#header .logo {
-			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			-moz-pointer-events: auto;
 			-webkit-pointer-events: auto;
 			-ms-pointer-events: auto;
 			pointer-events: auto;
-			border-style: solid;
-			border-color: #ffffff;
-			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
@@ -3380,7 +3373,8 @@
 			line-height: 1;
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
-			visibility: visible;
+            visibility: visible;
+            border-bottom: 0px;
 		}
 
 			#header .logo:hover {
@@ -3391,7 +3385,7 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+				height: 26rem;
 				padding-bottom: 4rem;
 			}
 
