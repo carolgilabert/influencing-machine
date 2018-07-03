@@ -3,8 +3,8 @@ title:              Influencing Machine
 bio:                'INFLUENCING MACHINE is a Nottingham-based collective and production company, specialising in new writing.'
 description:        "INFLUENCING MACHINE is a Nottingham-based collective and production company, specialising in new writing."
 locale:             en_UK
-baseurl: "/influencing-machine" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+baseurl:            "/" # the subpath of your site, e.g. /blog
+url:                "/" # the base hostname & protocol for your site
 
 defaults:
 - scope:

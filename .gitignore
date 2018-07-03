@@ -2,3 +2,4 @@ _site
 _site/
 public
 public/
+.DS_Store
