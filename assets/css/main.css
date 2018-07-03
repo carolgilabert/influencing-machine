@@ -3263,7 +3263,7 @@
 
 				#intro + #header {
 					margin-top: -14rem;
-				}
+                }
 
 		}
 
@@ -3359,9 +3359,37 @@
 
 		#header hr {
 			border-bottom-color: #ffffff;
-		}
+        }
 
-		#header .logo {
+        /* Logo image */
+
+        #header .logo img,
+        #intro .logo img {
+            width: 300px;
+            height: 230px;
+        }
+
+        #header .logo.large img,
+        #intro .logo.large img {
+            width: 500px;
+            height: 383px;
+        }
+
+        @media screen and (max-width: 480px) {
+            #header .logo img,
+            #intro .logo img {
+                width: 250px;
+                height: 191px;
+            }
+
+            #header .logo.large img,
+            #intro .logo.large img {
+                width: 250px;
+                height: 191px;
+            }
+        }
+
+        #header .logo {
 			-moz-pointer-events: auto;
 			-webkit-pointer-events: auto;
 			-ms-pointer-events: auto;
