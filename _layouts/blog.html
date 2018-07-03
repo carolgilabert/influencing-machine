@@ -58,8 +58,7 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
-							<article>
+						<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -72,12 +71,6 @@
 									<li><a href="{{ post.url | prepend: site.baseurl }}" class="button">Full Story</a></li>
 								</ul>
 							</article>
-							{% if mod3 == 0 %}
-							<article>
-								<header>
-								</header>
-							</article>
-							{% endif %}
 						{% endfor %}
 
 					</section>
