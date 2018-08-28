@@ -1761,10 +1761,25 @@
 	}
 
 	blockquote {
-		border-left: solid 4px;
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
+	}
+
+	blockquote.groucho {
+		position: relative;
+		font-size: 1.2em;
+		line-height: 1.2em;
+	}
+
+	blockquote.groucho footer {
+		font-size: 0.6em;
+		font-weight: 700;
+		clear: both;
+	}
+
+	blockquote.groucho footer:before {
+		content: '\2015';
 	}
 
 	code {
@@ -1831,10 +1846,6 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #212931;
-	}
-
-	blockquote {
-		border-left-color: #eeeeee;
 	}
 
 	code {
@@ -2445,7 +2456,7 @@
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 1.5rem 0;
 			width: 100%;
 		}
 
